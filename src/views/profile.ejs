@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile page</title>
+    <%- include('./partials/head.ejs') %>   
+</head>
+<body>
+    
+    <div class="container">
+        <header class="text-center">
+            <h1>Profile page</h1>
+            <a href="/logout" class="btn btn-light btn-sm">logout</a>
+        </header>
+        <hr>
+         <div class="containter">
+            <div class="container">
+                <div class="col sm-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">
+                                <span class="bi bi-person-fill"></span>Local
+                            </h3>
+                            <p>
+                                <strong>Id</strong>:<%= user._id %><br>
+                                <strong>Email</strong>:<%= user.local.email %><br>
+                                <strong>Password</strong>:<%= user.local.password %><br>
+                            </p>
+                            <a href="/logout" class="btn btn-light ">Log out</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+         </div>
+    </div>
+</body>
+</html>
