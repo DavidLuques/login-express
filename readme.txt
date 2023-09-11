@@ -6,3 +6,5 @@ npm i express express-session cookie-parser connect-flash ejs bcrypt-nodejs body
 
 ![2023-09-04 20_57_12-Window](https://github.com/DavidLuques/login-express/assets/76604947/65ca5503-0885-4ea9-8b21-ec74abaf3595)
 
+![2023-09-11 10_25_02-home page - Opera](https://github.com/DavidLuques/Crud_express/assets/76604947/23748392-eb55-443d-be28-206f312c7dd1)
+
