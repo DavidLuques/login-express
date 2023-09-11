@@ -8,3 +8,5 @@ U've to create an account ! :
 
 once u're signed in It returns ur encoded pass : 
 ![2023-09-04 20_57_12-Window](https://github.com/DavidLuques/login-express/assets/76604947/65ca5503-0885-4ea9-8b21-ec74abaf3595)
+
+I've used express-session and cookies so sign in the user ... 
